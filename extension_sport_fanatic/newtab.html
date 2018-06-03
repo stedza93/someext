@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>New Tab - Sport Fanatic</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <nav class="transparent animated fadeInDown" role="navigation">
+      <div class="nav-wrapper container">
+        <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+        <ul class="right nav-menu">
+          <li>
+            <a href="#">
+              <i class="material-icons shuffle">sync</i>
+            </a>
+          </li>
+          <li data-target="slide-out" class="sidenav-trigger">
+            <a href="#">
+              <i class="material-icons">settings</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="img/bgheader.jpg">
+          </div>
+        </div>
+      </li>
+      <li>
+        <a>
+          <i class="material-icons">settings</i>Personalize your page</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <div>
+          <div class="switch">
+            <div class="switch-name">
+              <p>Details </p>
+            </div>
+            <div class="switch-input">
+              <label>
+                Off
+                <input class="switch-check switch-check-details" name="details" type="checkbox" checked>
+                <span class="lever"></span>
+                On
+              </label>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="switch">
+            <div class="switch-name">
+              <p>Weather </p>
+            </div>
+            <div class="switch-input">
+              <label>
+                Off
+                <input class="switch-check switch-check-weather" name="weather" type="checkbox" checked>
+                <span class="lever"></span>
+                On
+              </label>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="switch">
+            <div class="switch-name">
+              <p>Date&Time </p>
+            </div>
+            <div class="switch-input">
+              <label>
+                Off
+                <input class="switch-check switch-check-dateTime" name="dateTime" type="checkbox" checked>
+                <span class="lever"></span>
+                On
+              </label>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+    <div class="container">
+      <div class="section">
+
+        <div style="height: 10vh;"></div>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m6 offset-m3 center animated fadeInDown forma">
+            <div class="row">
+              <div class="input-field col s12 search-div">
+                <i class="material-icons prefix">search</i>
+                <input class="search-input" placeholder="Search" id="search" type="text" autocomplete="off">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <br>
+      <br>
+    </div>
+
+    <footer class="page-footer transparent">
+      <div class="container">
+        <div class="row">
+
+          <div class="col l4 s12 footer-detailsCard footer-details animated fadeInUp">
+            <!-- Logo is not needed right now
+            <div class="col l4 s4">
+              <img class="footer-logo" src="/img/logo.png">
+            </div>
+            -->
+            <div class="col l12 s12">
+              <h3 class="white-text detailsCard-name">/</h3>
+              <div class="stadiumInfo-text">
+                <i class="material-icons stadiumIcon">reorder</i>
+                <h5 class="detailsCard-description">/</h5>
+              </div>
+              <div class="stadiumInfo-text paddingBottom20">
+                <i class="material-icons stadiumIcon">calendar_today</i>
+                <h5 class="detailsCard-year">/</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l3 s12 animated fadeInUp">
+
+          </div>
+
+          <div class="col l2 s12 footer-weatherCard footer-weather animated fadeInUp">
+            <div id="weather">
+
+            </div>
+          </div>
+
+          <div class="col l2 s12 animated footer-dateTimeCard footer-dateTime fadeInUp dateTime">
+            <h2 class="white-text infoTime">13:22</h2>
+            <h3 class="white-text infoDate">Thursday, 31 May 2018</h3>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by
+          <a class="orange-text text-lighten-3" href="#">Sport Fanatic</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/initWeather.js"></script>
+  <script src="js/simpleWeather.js"></script>
+
+</body>
+
+</html>
