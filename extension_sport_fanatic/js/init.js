@@ -72,7 +72,7 @@ $(document).ready(function() {
       type: "GET"
     }).done(function(response) {
       console.log(response, "TO JE RESPON");
-      movieRandom(response.teams[9]);
+      movieRandom(response.teams[6]);
     });
 
     $.ajax({
@@ -134,8 +134,8 @@ $(".shuffle").click(function() {
   var bg_img = "/img/bg" + index + ".jpg";
 
   $("body").css({
-    background: "url(" + bg_img + ") repeat center center ",
-    "background-size": "auto"
+    background: "url(" + bg_img + ") no-repeat center center fixed",
+    "background-size": "cover"
   });
   $(".detailsCard-name").html(photoDetails[index].name);
   $(".detailsCard-description").html(
