@@ -136,4 +136,8 @@ var photoDetails = [
     name: "Croatia",
     image: "/img/Croatia/bg1.jpg"
   },
+  {
+    name: "Costa_Rica",
+    image: "/img/Costa_Rica/bg1.jpg"
+  },
 ];
