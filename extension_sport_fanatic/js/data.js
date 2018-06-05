@@ -133,6 +133,11 @@ var photoDetails = [
     image: "/img/Belgium/bg2.jpg"
   },
   {
+    name: "Belgium ",
+    image: "/img/Belgium/bg3.jpg"
+  },
+
+  {
     name: "Croatia",
     image: "/img/Croatia/bg1.jpg"
   },

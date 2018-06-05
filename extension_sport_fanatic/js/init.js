@@ -155,7 +155,7 @@ $(".mySelect").change(function(event) {
   console.log(team);
   let selectedTeam = photoDetails.filter(photo => photo.name == team);
   console.log(selectedTeam, "to je repr");
-  var index = Math.floor(Math.random() * selectedTeam.length) + 1;
+  var index = Math.floor(Math.random()+1 * selectedTeam.length);
   console.log(index, "to je index");
 
   var bg_img = "/img/" + selectedTeam[0].name + "/bg" + index + ".jpg";
