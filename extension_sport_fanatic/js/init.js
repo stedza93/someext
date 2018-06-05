@@ -65,9 +65,7 @@ $(document).ready(function() {
       background: "url(" + movie.crestUrl + ") no-repeat center center fixed "
     });
   }
-  function getPopularMovies() {
-    var url =
-      "https://api.themoviedb.org/3/discover/movie?sort_by=desc&api_key=9e62b31bcedb94dd85b12b37b7be33b4";
+  function getTeams() {
 
     $.ajax({
       headers: { "X-Auth-Token": "e47643f02cc64ae58404aeed573cca8d" },
@@ -103,7 +101,7 @@ $(document).ready(function() {
       //za Utakmice, uzeti od izabranog tima id ili ime i filtirirati po tome
     });
   }
-  getPopularMovies();
+  getTeams();
 
   function updateDateTime() {
     //handles date
@@ -151,6 +149,7 @@ $(".shuffle").click(function() {
   );
   $(".detailsCard-year").html("Capacity: " + photoDetails[index].capacity);
 });
+
 $(".mySelect").change(function(event) {
   let team = $(this).val();
   console.log(team);
@@ -163,7 +162,7 @@ $(".mySelect").change(function(event) {
 
   $("body").css({
     background: "url(" + bg_img + ") no-repeat center center fixed",
-    "background-size": "cover"
+    "background-size": "100% 100%"
   });
 });
 

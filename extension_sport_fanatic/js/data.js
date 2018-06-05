@@ -60,5 +60,80 @@ var photoDetails = [
     name: "France",
     image: "/img/France/bg2.jpg"
   },
-  
+  {
+    name: "Egypt",
+    image: "/img/Egypt/bg1.jpg"
+  },
+  {
+    name: "Iceland",
+    image: "/img/Iceland/bg1.jpg"
+  },
+  {
+    name: "England",
+    image: "/img/England/bg1.jpg"
+  },
+  {
+    name: "England",
+    image: "/img/England/bg2.jpg"
+  },
+  {
+    name: "Iceland",
+    image: "/img/Iceland/bg1.jpg"
+  },
+  {
+    name: "Iceland",
+    image: "/img/Iceland/bg2.jpg"
+  },
+  {
+    name: "Nigeria",
+    image: "/img/Nigeria/bg1.jpg"
+  },
+  {
+    name: "Nigeria",
+    image: "/img/Nigeria/bg2.jpg"
+  },
+  {
+    name: "Germany",
+    image: "/img/Germany/bg1.jpg"
+  },
+  {
+    name: "Germany",
+    image: "/img/Germany/bg2.jpg"
+  },
+  {
+    name: "Panama",
+    image: "/img/Panama/bg1.jpg"
+  },
+  {
+    name: "Panama",
+    image: "/img/Panama/bg2.jpg"
+  },
+  {
+    name: "Egypt",
+    image: "/img/Egypt/bg1.jpg"
+  },
+  {
+    name: "Australia",
+    image: "/img/Australia/bg1.jpg"
+  },
+  {
+    name: "Australia ",
+    image: "/img/Australia/bg2.jpg"
+  },
+  {
+    name: "Australia",
+    image: "/img/Australia/bg3.jpg"
+  },
+  {
+    name: "Belgium",
+    image: "/img/Belgium/bg1.jpg"
+  },
+  {
+    name: "Belgium ",
+    image: "/img/Belgium/bg2.jpg"
+  },
+  {
+    name: "Croatia",
+    image: "/img/Croatia/bg1.jpg"
+  },
 ];
