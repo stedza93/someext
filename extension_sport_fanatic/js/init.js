@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".sidenav").sidenav();
+
   console.log("ready storage");
 
   chrome.storage.sync.get(["settings"], function(result) {
@@ -53,6 +54,9 @@ $(".switch-check").click(function(event) {
 $(document).ready(function() {
   $(".sidenav").sidenav();
   console.log("ready");
+  function bzv(t) {
+    console.log("rtotoeortqae", t);
+  }
   function movieRandom(movie) {
     /*$('.detailsCard-name').html(photoDetails[index].name);
     $('.detailsCard-description').html(photoDetails[index].description);
@@ -73,6 +77,7 @@ $(document).ready(function() {
     }).done(function(response) {
       console.log(response, "TO JE RESPON");
       movieRandom(response.teams[6]);
+      bzv(response.teams);
     });
 
     $.ajax({
@@ -128,10 +133,13 @@ $(document).ready(function() {
   setTimeout(updateDateTime, 100);
 });
 
+let selectedTeam = photoDetails.filter(photo => photo.name == "France");
+console.log("Slicicce", selectedTeam);
 $(".shuffle").click(function() {
-  var index = Math.floor(Math.random() * 8) + 1;
+  var index = Math.floor(Math.random() * selectedTeam.length) + 1;
+  console.log(index, "to je index");
 
-  var bg_img = "/img/bg" + index + ".jpg";
+  var bg_img = "/img/" + selectedTeam[0].name + "/bg" + index + ".jpg";
 
   $("body").css({
     background: "url(" + bg_img + ") no-repeat center center fixed",
@@ -142,6 +150,21 @@ $(".shuffle").click(function() {
     "Location: " + photoDetails[index].location
   );
   $(".detailsCard-year").html("Capacity: " + photoDetails[index].capacity);
+});
+$(".mySelect").change(function(event) {
+  let team = $(this).val();
+  console.log(team);
+  let selectedTeam = photoDetails.filter(photo => photo.name == team);
+  console.log(selectedTeam, "to je repr");
+  var index = Math.floor(Math.random() * selectedTeam.length) + 1;
+  console.log(index, "to je index");
+
+  var bg_img = "/img/" + selectedTeam[0].name + "/bg" + index + ".jpg";
+
+  $("body").css({
+    background: "url(" + bg_img + ") no-repeat center center fixed",
+    "background-size": "cover"
+  });
 });
 
 $("#search").keyup(function(event) {

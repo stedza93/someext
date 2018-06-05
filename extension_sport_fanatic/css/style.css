@@ -144,3 +144,6 @@ input#search:focus:not([readonly]) {
 .paddingBottom20 {
   padding-bottom: 20px;
 }
+.pojma{
+  visibility: visible !important;
+}

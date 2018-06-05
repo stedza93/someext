@@ -1,63 +1,64 @@
 var photoDetails = [
-    {},
-    {
-      "name": "Real Madrid",
-      "description": "Champions League Winner",
-      "year": "2016" ,
-      "image": "/img/bg1.jpg"
-    },
-    {
-      "name": "Real Madrid",
-      "description": "Celebrating winning match",
-      "year": "2014" ,
-      "image": "/img/bg2.jpg"
-    },
-    {
-      "name": "FC Barcelona",
-      "description": "Nou Camp Stadium",
-      "year": "2015",
-      "image": "/img/bg3.jpg"
-    },
-    {
-      "name": "FC Barcelona",
-      "description": "FC Barcelona Roster",
-      "year": "2017",
-      "image": "/img/bg4.jpg"
-    },
-    {
-      "name": "FC Bayern Munich",
-      "description": "Full attendance, Allianz Arena, Munich",
-      "year": "2017",
-      "image": "/img/bg5.jpg"
-    },
-    {
-      "name": "FC Bayern Munich",
-      "description": "Allianz Arena Stadium",
-      "year": "2018",
-      "image": "/img/bg6.jpg"
-    },
-    {
-      "name": "Chelsea FC",
-      "description": "Chelsea FC VS Tottenham Hotspur F.C.",
-      "year": "2016",
-      "image": "/img/bg7.jpg"
-    },
-    {
-      "name": "Liverpool FC",
-      "description": "Liverpool FC Champions League Winner",
-      "year": "2005",
-      "image": "/img/bg8.jpg"
-    },
-    {
-      "name": "AC Milan",
-      "description": "AC Milan Jersey",
-      "year": "2017",
-      "image": "/img/bg9.jpg"
-    },
-    {
-        "name": "Lionel Messi",
-        "description": "Lionel Messi in FC Barcelona Jersey",
-        "year": "2018",
-        "image": "/img/bg10.jpg"
-      },
-  ];
+  {
+    name: "WorldCup",
+    image: "/img/WorldCup/bg1.jpg"
+  },
+  {
+    name: "World Cup ",
+    image: "/img/WorldCup/bg2.jpg"
+  },
+  {
+    name: "WorldCup",
+    image: "/img/WorldCup/bg3.jpg"
+  },
+  {
+    name: "Brasil",
+    image: "/img/Brasil/bg1.jpg"
+  },
+  {
+    name: "Brasil",
+    image: "/img/Brasil/bg2.jpg"
+  },
+  {
+    name: "Brasil",
+    image: "/img/Brasil/bg3.jpg"
+  },
+  {
+    name: "Spain",
+    image: "/img/Spain/bg1.jpg"
+  },
+  {
+    name: "Spain",
+    image: "/img/Spain/bg2.jpg"
+  },
+  {
+    name: "Spain",
+    image: "/img/Spain/bg3.jpg"
+  },
+
+  {
+    name: "Argentina",
+    image: "/img/Argentina/bg1.jpg"
+  },
+  {
+    name: "Argentina",
+    image: "/img/Argentina/bg2.jpg"
+  },
+  {
+    name: "Portugal",
+    image: "/img/Portugal/bg1.jpg"
+  },
+  {
+    name: "Portugal",
+    image: "/img/Portugal/bg2.jpg"
+  },
+  {
+    name: "France",
+    image: "/img/France/bg1.jpg"
+  },
+  {
+    name: "France",
+    image: "/img/France/bg2.jpg"
+  },
+  
+];
