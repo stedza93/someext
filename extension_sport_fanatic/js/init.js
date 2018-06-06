@@ -1,3 +1,15 @@
+$(document).ready(function(){
+  $('input.autocomplete').autocomplete({
+    data: {
+      "Brasil": null,
+      "Argentina": null,
+      "Morroco": 'https://placehold.it/250x250',
+      "Australia": null,
+      "Russia": null,
+      "Serbia": 'https://placehold.it/250x250'
+    },
+  });
+});
 $(document).ready(function() {
   $(".sidenav").sidenav();
 
